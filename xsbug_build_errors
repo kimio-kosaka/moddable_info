@@ -1,0 +1,71 @@
+kim$ make
+make -f /Users/kim/Projects/moddable/xs/makefiles/mac/xsc.mk
+# xsc debug : cc xsdtoa.c
+# xsc debug : cc xsre.c
+# xsc debug : cc xsCommon.c
+# xsc debug : cc xsScript.c
+# xsc debug : cc xsLexical.c
+# xsc debug : cc xsSyntaxical.c
+# xsc debug : cc xsTree.c
+# xsc debug : cc xsSourceMap.c
+# xsc debug : cc xsScope.c
+# xsc debug : cc xsCode.c
+# xsc debug : cc xsc.c
+# xsc debug : cc xsc
+make -f /Users/kim/Projects/moddable/xs/makefiles/mac/xsid.mk
+# xsid debug : cc xsdtoa.c
+# xsid debug : cc xsre.c
+# xsid debug : cc xsCommon.c
+# xsid debug : cc xsid.c
+# xsid debug : cc xsid
+make -f /Users/kim/Projects/moddable/xs/makefiles/mac/xsl.mk
+# xsl debug : cc xsAll.c
+# xsl debug : cc xsAPI.c
+# xsl debug : cc xsArguments.c
+# xsl debug : cc xsArray.c
+# xsl debug : cc xsAtomics.c
+# xsl debug : cc xsBoolean.c
+# xsl debug : cc xsCommon.c
+# xsl debug : cc xsDataView.c
+# xsl debug : cc xsDate.c
+# xsl debug : cc xsDebug.c
+# xsl debug : cc xsDefaults.c
+# xsl debug : cc xsError.c
+# xsl debug : cc xsFunction.c
+# xsl debug : cc xsGenerator.c
+# xsl debug : cc xsGlobal.c
+# xsl debug : cc xsJSON.c
+# xsl debug : cc xsMapSet.c
+# xsl debug : cc xsMarshall.c
+# xsl debug : cc xsMath.c
+# xsl debug : cc xsMemory.c
+# xsl debug : cc xsModule.c
+# xsl debug : cc xsNumber.c
+# xsl debug : cc xsObject.c
+# xsl debug : cc xsPlatforms.c
+# xsl debug : cc xsProfile.c
+# xsl debug : cc xsPromise.c
+# xsl debug : cc xsProperty.c
+# xsl debug : cc xsProxy.c
+# xsl debug : cc xsRegExp.c
+# xsl debug : cc xsRun.c
+# xsl debug : cc xsString.c
+# xsl debug : cc xsSymbol.c
+# xsl debug : cc xsType.c
+# xsl debug : cc xsdtoa.c
+# xsl debug : cc xsre.c
+# xsl debug : cc xslBase.c
+# xsl debug : cc xslSlot.c
+# xsl debug : cc xslStrip.c
+# xsl debug : cc xsl.c
+# xsl debug : cc xsl
+make -f serial2xsbug.mk
+# serial2xsbug debug : cc serial2xsbug.c
+# serial2xsbug debug : cc serial2xsbug
+make -f simulator.mk
+# simulator debug : cc main.m
+# simulator debug : cc simulator
+xcode-select: error: tool 'ibtool' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance
+make[1]: *** [/Users/kim/Projects/moddable/build/bin/mac/debug/Screen Test.app/Contents/Resources/English.lproj/main.nib] Error 1
+make: *** [debug] Error 2
+kim$
